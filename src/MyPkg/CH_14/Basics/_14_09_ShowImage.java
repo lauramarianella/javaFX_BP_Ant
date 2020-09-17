@@ -24,7 +24,8 @@ public class _14_09_ShowImage extends Application {
     // Create a pane to hold the image views
     Pane pane = new HBox(10);
     pane.setPadding(new Insets(5, 5, 5, 5));
-    Image image = new Image("https://upload.wikimedia.org/wikipedia/commons/3/39/Animated-Flag-Canada.gif");
+    //Image image = new Image("https://upload.wikimedia.org/wikipedia/commons/3/39/Animated-Flag-Canada.gif");
+    Image image = new Image("resources/TicTacToe_0.png");
     pane.getChildren().add(new ImageView(image));
     
     ImageView imageView2 = new ImageView(image);
