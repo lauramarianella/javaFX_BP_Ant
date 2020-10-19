@@ -18,11 +18,7 @@ public class MainApp extends Application{
   @Override // Override the start method in the Application class
   public void start(Stage stage) throws Exception {
     
-      
-    URL url = null;
-    Class thisClass = getClass();
-    url = thisClass.getResource("/resources/almostEmptyScene.fxml");
-    Parent root = FXMLLoader.load(url);
+    Parent root = FXMLLoader.load(getClass().getResource("/resources/almostEmptyScene.fxml"));
     
     Scene scene = new Scene(root);
     stage.setTitle("JavaFX and FXML");
