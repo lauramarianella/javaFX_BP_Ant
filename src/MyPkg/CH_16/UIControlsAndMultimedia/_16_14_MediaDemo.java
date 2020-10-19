@@ -3,14 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MyPkg.CH_14.AExecuter;
+package MyPkg.CH_16.UIControlsAndMultimedia;
 
-/**
- *
- * @author laura
- */
 import javafx.application.Application;
-import static javafx.application.Application.launch;
+import javafx.stage.Stage;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -22,11 +18,9 @@ import javafx.scene.layout.Region;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
-import javafx.stage.Stage;
 import javafx.util.Duration;
 
-
-public class Main extends Application {
+public class _16_14_MediaDemo extends Application {
   private static final String MEDIA_URL = 
     "https://liveexample-ppe.pearsoncmg.com/common/sample.mp4";
 
